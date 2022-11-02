@@ -168,3 +168,18 @@
     font-size: 1.3rem;
 }
 
+.btn-facturacion{
+    width: 100%;
+    border-radius: .25rem;
+    border: none;
+    height: 2rem;
+    margin-top: 1rem;
+    background-color: #bfaa9b;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    font-size: 1rem;
+}
+
+.btn-facturacion:hover {
+    transform: scale(1.05);
+}
+

@@ -41,9 +41,6 @@ header > a > img {
     justify-content: space-around;
 }
 
-.btn-carrito:focus + .carrito{
-    display: block;
-}
 .texto-carrito{
     text-align: center;
 }

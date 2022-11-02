@@ -13,7 +13,13 @@
     <title>Panaderia Pedrín</title>
 
     <script>
-        const link = () => {
+
+        const abrircesta = () => {
+            const carro = document.querySelector(".carrito").style
+           carro.display = carro.display === 'none' ? 'block' : 'none'
+        }
+
+        const cesta = () => {
            window.location.href='cesta.html'
         }
     </script>
@@ -28,7 +34,7 @@
             <a href="productos.html">Productos</a>
             <a href="#">Pedidos Especiales</a>
             <a href="#" class="btn-carrito">
-                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-cart-shopping" onclick="abrircesta()"></i>
             </a>
             <div class="carrito">
                 <div class="container-carrito">
@@ -70,7 +76,7 @@
                             <h3>Total</h3>
                             <p>5.60€</p>
                         </div>
-                        <button type="button" class="boton-guardar" onclick="link()">Guardar y Continuar</button>
+                        <button class="boton-guardar" onclick="cesta()">Guardar y Continuar</button>
                     </div>
                 </div>
             </div>
