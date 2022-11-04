@@ -103,6 +103,7 @@
 
 .boton-pagar:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .articulo-carro {
@@ -162,6 +163,7 @@
 
 .select:hover {
     border: 1px solid black;
+    cursor: pointer;
 }
 
 .articulo-precio > p{
@@ -181,5 +183,6 @@
 
 .btn-facturacion:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 

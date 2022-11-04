@@ -107,6 +107,7 @@ header > a > img {
 }
 .boton-guardar:hover{
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .navbardiv{
@@ -122,6 +123,7 @@ header > a > img {
 
 .navbardiv i:hover{
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .navbardiv a{
@@ -206,4 +208,5 @@ footer{
 
 .icons i:hover{
     transform: scale(1.4);
+    cursor: pointer;
 }
